@@ -24,8 +24,25 @@
   (print   (f 5) ) 
 
 
+  (print "Readdy to do Abs")
 
-  0)
+
+  (define (abs x) 
+    (cond ( (> x 0 ) x )
+
+          ( (= x 0 ) 0  )
+
+          ( (< x 0 ) (- x)  )
+
+      ) ; cond 
+   ) ; deinfe abs x
+
+
+  (print (abs -5)  )
+  (print (abs 5)  )
+  ; ------------------------------
+  0) ; MAIN args ENTRY POINT
+
 
 
 

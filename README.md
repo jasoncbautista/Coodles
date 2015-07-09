@@ -10,3 +10,6 @@ Hi, you
 Hi, ye all
 0
 #;3>
+
+
+csi -ss sumSquares.scm
