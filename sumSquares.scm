@@ -44,7 +44,7 @@
 
   (define (abs-2 x)
 
-    (cond  ( (< x 0)   (-x) )
+    (cond  ( (< x 0)   (- x) )
            (else x)
 
       )
