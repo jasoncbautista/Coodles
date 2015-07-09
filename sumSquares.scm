@@ -40,6 +40,24 @@
 
   (print (abs -5)  )
   (print (abs 5)  )
+
+
+  (define (abs-2 x)
+
+    (cond  ( (< x 0)   (-x) )
+           (else x)
+
+      )
+
+
+    ) ; Deinf abs-2
+
+  (print (abs-2 -5)  )
+  (print (abs-2 5)  )
+
+
+
+
   ; ------------------------------
   0) ; MAIN args ENTRY POINT
 
