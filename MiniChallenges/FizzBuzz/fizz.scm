@@ -1,5 +1,7 @@
 (define (main args)
 
+  ; A super naive implementation of FizzBuzz that uses conditionals
+  ; to loop over 1->100 
  (define (miniloop curr)
    (define x curr)
    (cond 
